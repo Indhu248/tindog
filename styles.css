@@ -1,3 +1,4 @@
+
 *{
    font-family: 'Inter', sans-serif;
 }
@@ -9,13 +10,14 @@ body{
 .hero_page{
    background-color: #08051C;
    color: #fff;
-   padding: 1rem 5rem;
+   padding: 1rem 4rem;
 }
 #nav_bar{
-   padding: 2rem 1rem;
+   padding: 2rem 4rem;
 }
 #main{
-   padding: 6rem 4rem 0rem 4rem;
+   /* padding: 6rem 4rem 0rem 4rem; */
+   padding: 4rem 4rem;
    display: flex;
    justify-content: space-between;
 }
@@ -27,9 +29,9 @@ li{
 }
 li a{
    text-decoration: none;
-   margin: 0px 20px;
+   margin: 0px 22px;
    color: #ffffffc0;
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 500;
 }
 #fire{
@@ -46,7 +48,7 @@ li a{
 .heroText h1{
    padding-right:10rem;
    font-family: 'Montserrat', sans-serif;
-   font-size: 4rem;
+   font-size: 3.5rem;
    line-height: 1.4;
    font-weight: bold;
    color: #fff;
@@ -54,13 +56,36 @@ li a{
 .heroText h1 span{
    color: #4637cc;
 }
+#mac{
+   background-color: #4637cc;
+}
 
 ion-icon{
    padding: 2px;
 }
 .title-img{
+   margin-top: 0rem;
    width: 16rem;
-   margin-left: 10rem;  
+   position: absolute;
+   margin-left: -20rem;
+}
+.ellipse{
+   height: 25rem;
+}
+.ellipse1,.ellipse2,.ellipse3{
+   position: absolute;
+   width: 5rem;
+}
+.ellipse1{
+   margin-left: -29rem;
+   width: 7rem;
+}
+.ellipse2{
+   margin-top: 20rem;
+   margin-left: -30rem;
+}
+.ellipse3{
+   margin-left: -2rem;
 }
 
 #brand{
@@ -79,12 +104,15 @@ ion-icon{
    margin: 5% 3% 5% 0;
 }
 
-
-
 #wave{
    top: 0;
-   width: 90rem;
+   width: 120rem;
    position: relative;
+   margin-top: -4rem;
+}
+#wave2{
+   position: absolute;
+   margin-top: -14rem;
 }
 
 
@@ -107,7 +135,7 @@ ion-icon{
    color: #44444c;
 }
 .icon{
-   color: #08051C;
+   color: #4637cc;
    margin-bottom: 1rem;
    cursor: pointer;
 }
@@ -155,9 +183,13 @@ ion-icon{
    font-weight: bold;
    color: #08051C;
 }
+#pricing h2 span{
+   color: #4637cc;
+}
 
 #c{
    background-color: #4637cc;
+   color: #fff;
 }
 #c-b{
    border-radius: 25px 25px 0px 0px;
@@ -183,6 +215,9 @@ ion-icon{
 #cta button{
    margin: 20px;
 }
+#cta h3 span{
+   color: #4637cc;
+}
 #footer{
    padding: 10px;
 }
@@ -203,41 +238,59 @@ ion-icon{
    body{
       overflow-x: hidden;
       justify-content: center;
-      font-size:20px;
+   }
+   #title a{
+      font-size: 25px;
+   }
+   li a{
+      font-size: 20px;
    }
    #main{
       justify-content: center;
-      display: block;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 2;
+   }
+   .heroText{
+      padding: 0;
       text-align: center;
    }
    .heroText h1{
-      margin-left: 10rem;
-      justify-content: center;
-      text-align: center;
-      font-size: 30px;
+      font-size: 4.4rem;
+      padding-right: 0rem;
    }
    .right{
       display: none;
    }
    .title-img{
-      width: 10rem;
+      width: 15rem;
       position: relative;
-      transform: rotate(0);
-      margin: 0;
+      margin-top: 1rem;
+      margin-left: 20;
    }
-   #main h1{
+   #testimonials h2{
+      font-size: 2rem;
+   }
+   #features h3{
       font-size: 35px;
    }
+   #features p{
+      font-size: 20px;
+   }
    #pricing{
-      padding: 20%;
+      padding: 10% 20%;
    }
    #cta{
       text-align: center;
       display: block;
       margin: auto;
    }
-   #cta h3{
-      font-size: 18px;
+   #pricing h2{
+      font-size: 60px;
+   }
+   #pricing p{
+      font-size: 23px;
    }
    .card{
       margin-top: 30px;
